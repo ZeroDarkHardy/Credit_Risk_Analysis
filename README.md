@@ -74,4 +74,5 @@ Software: Visual Studio Code v1.64.2, Jupyter Notebook 6.4.6, Python 3.7.11, Con
 ## Summary
 
 All six models show fairly weak precision in detecting high risk credit, though the Ensemble classifiers showed much higher sensitivity in that category. With such weak precision (between 1-7%, respectively), our client is to have far more false negatives than false positives.  While that means that the bank is very unlikely to end up financing an account that they shouldn't have, the number of business opportunities that they miss out on is far greater.  Overall, the strongest model seems to be the EasyEnsemble Adaboost classifier, which had slightly higher precision than the rest (7% for high_risk) and much higher sensitivity than most (91% for high_risk).<br/>
+
 On the whole, I wouldn't recommend our client utilize any of these models until they can be better trained, and I believe that effort should be focused on the EasyEnsemble Adaboost Classifier, since it has produced the most promising results thusfar.
