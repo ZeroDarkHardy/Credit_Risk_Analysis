@@ -15,7 +15,7 @@
 
 ## Resources
 
-Source Data: [LoanStats_2019Q1.csv](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/resources/LoanStats_2019Q1.csv)
+Source Data: [LoanStats_2019Q1.csv](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/resources/LoanStats_2019Q1.csv)<br/>
 Software: Visual Studio Code v1.64.2, Jupyter Notebook, Python 3.7.11, Conda 4.11.0
 
 ## Results
@@ -24,33 +24,33 @@ Software: Visual Studio Code v1.64.2, Jupyter Notebook, Python 3.7.11, Conda 4.1
 
 ![naive_random_oversampling.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/naive_random_oversampling.png)
 
-Balanced Accuracy Score: 64.8%
-Precision Score(AVG): 99%
-Recall Score(AVG): 66%
+Balanced Accuracy Score: 64.8%<br/>
+Precision Score(AVG): 99%<br/>
+Recall Score(AVG): 66%<br/>
 
 ### SMOTE oversampling model
 
 ![smote_oversampling.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/smote_oversampling.png)
 
-Balanced Accuracy Score: 62.4%
-Precision Score(AVG): 99%
-Recall Score(AVG): 63%
+Balanced Accuracy Score: 62.4%<br/>
+Precision Score(AVG): 99%<br/>
+Recall Score(AVG): 63%<br/>
 
 ### Cluster Centroids undersampling model
 
 ![cluster_centroids_undersampling.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/cluster_centroids_undersampling.png)
 
-Balanced Accuracy Score: 51.3%
-Precision Score(AVG): 99%
-Recall Score(AVG): 44%
+Balanced Accuracy Score: 51.3%<br/>
+Precision Score(AVG): 99%<br/>
+Recall Score(AVG): 44%<br/>
 
 ### SMOTEENN (combination over and undersampling model)
 
 ![smoteenn.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/smoteenn.png)
 
-Balanced Accuracy Score: 62.2%
-Precision Score(AVG): 99%
-Recall Score(AVG): 54%
+Balanced Accuracy Score: 62.2%<br/>
+Precision Score(AVG): 99%<br/>
+Recall Score(AVG): 54%<br/>
 
 ### Balanced Random Forest Classifier model
 
@@ -60,16 +60,16 @@ Recall Score(AVG): 54%
 
 ![feature_importances.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/feature_importances.png)
 
-Balanced Accuracy Score: 78.8%
-Precision Score(AVG): 99%
-Recall Score(AVG): 91%
+Balanced Accuracy Score: 78.8%<br/>
+Precision Score(AVG): 99%<br/>
+Recall Score(AVG): 91%<br/>
 
 ### Easy Ensemble Adaboost Classifier model
 
 ![easy_ensemble_adaboost.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/easy_ensemble_adaboost.png)
 
-Balanced Accuracy Score: 92.5%
-Precision Score(AVG): 99%
-Recall Score(AVG): 94%
+Balanced Accuracy Score: 92.5%<br/>
+Precision Score(AVG): 99%<br/>
+Recall Score(AVG): 94%<br/>
 
 ## Summary
