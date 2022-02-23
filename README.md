@@ -2,6 +2,17 @@
 
 ## Overview of Project
 
+### Index
+
+- Results:
+    - [Naive Random Oversampling](#naive-random-oversampling-model)
+    - [SMOTE Oversampling](#smote-oversampling-model)
+    - [Cluster Centroids Undersampling](#cluster-centroids-undersampling-model)
+    - [SMOTEENN Combination Sampling](#smoteenn-combination-over-and-undersampling-model)
+    - [Balanced Random Forest Classifier](#balanced-random-forest-classifier-model)
+    - [Easy Ensemble Adaboost Classifier](#easy-ensemble-adaboost-classifier-model)
+- [Summary](#summary)
+
 ## Results
 
 ### Naive Random oversampling model
@@ -31,3 +42,5 @@
 ### Easy Ensemble Adaboost Classifier model
 
 ![easy_ensemble_adaboost.png](https://github.com/ZeroDarkHardy/Credit_Risk_Analysis/blob/main/images/easy_ensemble_adaboost.png)
+
+## Summary
